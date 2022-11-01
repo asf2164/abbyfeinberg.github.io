@@ -1,0 +1,29 @@
+---
+title: "Dashboard"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: spacelab
+---
+
+```{r setup, include=FALSE}
+library(tidyverse) 
+library(dplyr)
+
+library(p8105.datasets)
+data("ny_noaa")
+
+ny_noaa =
+  ny_noaa %>% 
+  janitor::clean_names() %>% 
+  separate(date, into = c("year", "month", "day")) %>% 
+  mutate(across(.col = (c("year", "month", "day", "prcp", "snow", "snwd", "tmax", "tmin")), as.numeric)) %>%
+  mutate(prcp = prcp/100, snow = snow/10, snwd = snwd/10, tmax = tmax/10, tmin = tmin/10)
+#fix how the variables were mutated
+
+```
+
+
+
+

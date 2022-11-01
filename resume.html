@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Resume</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="resume.rmd">
+    <span class="fa fa-solid fa-file"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="mailto:&lt;asf2164@cumc.columbia.edu&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/asf2164">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Resume</h1>
+
+</div>
+
+
+<div id="skills" class="section level1">
+<h1>Skills</h1>
+<p>Computer Skills: SAS; R; MATLAB; SPSS; Statistica; Microsoft Office
+Suite; Qualtrics; Language Skills: Fluent in Russian; Intermediate
+Spanish</p>
+</div>
+<div id="education" class="section level1">
+<h1>Education</h1>
+<p>Mailman School of Public Health, Columbia University Master of Public
+Health (MPH), Epidemiology Certificate: Advanced Epidemiology
+Graduation: May 2023 Relevant coursework: Data Science, Clinical
+Epidemiology, Applied Regression</p>
+<p>Barnard College, Columbia University<br />
+Major: Psychology Major GPA: 3.6 Minor: Biology Cumulative GPA: 3.3
+Senior Thesis: Reducing Flashbacks After Traumatic Films: The Effect of
+Tetris and Social Interaction on Working Memory. Graduation: May
+2018</p>
+<p>Study Abroad: KOREA UNIVERSITY, Seoul, South Korea<br />
+International Summer Campus June 2017 - July 2017</p>
+</div>
+<div id="work-experience" class="section level1">
+<h1>Work Experience</h1>
+<p>COLUMBIA UNIVERSITY, New York, NY<br />
+Project Coordinator March 2022 - Present • Created the recruitment flow
+and data management system for a focus group research study on sleep and
+cardiovascular health among the Hispanic and Latinx community. •
+Coordinated the final timepoint of a longitudinal study on breast
+density and created the materials for that timepoint.</p>
+<p>DEPARTMENT OF MENTAL HEALTH AND HYGIENE, New York, NY HRTP Intern
+June 2022 - August 2022 • Conducted preliminary data analysis on data
+from a mobile treatment program for homeless people living in NYC with
+severe mental illness (SMI) using SAS and completed a literature review
+related to social support programs and SMI</p>
+<p>ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI, New York, NY<br />
+Clinical Research Coordinator, PI: Dr. Erin Hazlett June 2020 - March
+2022 ● Coordinated a longitudinal research study on neurobiological
+differences in schizophrenia and schizotypal personality disorder. ●
+Altered elements of the protocol to be administered remotely during the
+COVID-19 pandemic and submitted these protocol changes to the ISMMS IRB.
+● Managed data base by organizing and overseeing data collection through
+REDCap and completing data analysis using Statistica.</p>
+<p>JAMES J PETERS VA MEDICAL CENTER, Bronx, NY<br />
+Clinical Research Coordinator, PI: Dr. Erin Hazlett November 2018 -
+August 2021 ● Coordinated a longitudinal research study on
+neurobiological mechanisms of suicidal behavior and emotional regulation
+in Veterans at low and high risk for suicide ● Oversaw data collection
+and management through Microsoft Excel and REDCap. ● Managed
+participants’ involvement with the study through scheduling
+appointments, conducting interviews regarding their mental health and
+medical history, assisted with their MRI scan, and conducted
+psychophysiological (affective startle paradigm) and neurocognitive
+assessments (Go-No Go, Delayed Discounting, and Stroop). ● Recruited
+participants through newspapers, flyers, and by networking at numerous
+VA hospitals throughout New York; conducted phone screens to determine
+eligibility among potential participants. ● Organized and submitted
+study applications to the JJPVAMC IRB as well as the IRB of the academic
+affiliate, Icahn School of Medicine at Mount Sinai; transitioned parts
+of the study protocol to be administered remotely during the COVID-19
+pandemic. ● Assisted in the development of two grants on mTBI and
+bipolar disorder and one grant on the effects of cognitive remediation
+on Veterans with Major Depressive Disorder at high risk for suicide. ●
+Contributed to the development of manuscripts by creating figures and
+editing copy to prepare for publication.</p>
+<p>BARNARD COLLEGE, New York, NY<br />
+Research Assistant January 2017 - May 2018 ● Assisted on
+psychophysiological studies focusing on memory, metacognition, and
+decision-making; recruited 70 participants from Psychology classes;
+administered study protocols to participants; acted as a confederate for
+the study; created and presented on this data at the 58th Annual Meeting
+of the Psychonomic Society in Vancouver, Canada. ● Traveled to Seoul,
+South Korea to collect data on a study that compared metacognition in
+social relationships between Korean college students at Korea University
+and college students at the University of Montana.</p>
+<p>BARNARD COLLEGE, New York, NY<br />
+Teacher’s Assistant September 2017 - May 2018 ● Held office hours for
+Programming for Behavioral Sciences class and assisted 20 students with
+their MATLAB projects, where they recreated psychology experiments such
+as variations of the Stroop task and simulated stock markets. ● Held
+office hours and organized notes for Psychology of Personality class as
+the only TA.</p>
+<p>BARNARD COLLEGE, New York, NY<br />
+Research Assistant September 2016 - May 2018 ● Developed a protocol for
+my undergraduate thesis on working memory following exposure to
+traumatic films with implications for how traumatic imagery is encoded
+in PTSD. ● Recruited 130 participants from college Psychology classes;
+executed protocol which involved cognitive and self-report assessments;
+followed participants for one week one week after administration of the
+study. ● Organized and submitted study application to the Barnard
+College IRB and Columbia University IRB; trained a research assistant on
+the study protocol. ● Assisted on a research study on the relationship
+between social media usage and disordered eating</p>
+<p>QNTFY, Arlington, VA<br />
+Remote Intern May 2017 - August 2017 ● Assisted in developing an
+annotation scheme for a series of Twitter posts for various emotions and
+behaviors associated with mental illnesses (e.g. depression and
+anxiety), with the purpose of determining common manifestations of
+psychopathology on Twitter. ● Performed literature review related to
+computational clinical psychology and linguistics.</p>
+</div>
+<div id="other-experience" class="section level1">
+<h1>Other Experience</h1>
+<p>NEW YORK STATE PSYCHIATRIC INSTITUTE, New York, NY<br />
+Volunteer October 2017 - May 2018 ● Conducted phone screens with parents
+to determine if their child was eligible to participate in an fMRI study
+on adolescent OCD; Organized and analyzed the collected data using
+Microsoft Access.</p>
+<p>COLUMBIA EDUCATIONAL STUDIES PROGRAM<br />
+Administrator, Teacher January 2015 - May 2018 ● Coordinated the Splash
+program at Columbia University, a program that runs once a semester and
+allows college students to lecture on topics of their choosing to 1000+
+High School students; taught psychology classes to high school
+students</p>
+<p>MENTAL HEALTH AWARENESS INTEGRATION FORUM President<br />
+January 2022 – Present</p>
+<p>HEALTHCARE DATA ANALYTICS Vice President of Finance<br />
+January 2022 – Present</p>
+<p>WOMXN 4 WOMEN Vice President of Operations<br />
+January 2022 – Present</p>
+<p>#Papers and Publications Sher L., Kilmade M.E., Feinberg A.,
+Govindarajulu U., Byne W., Kahn R., Hazlett E.A. (2021). Clinical
+features and psychiatric comorbidities in military veterans with
+schizophrenia with or without suicidality. Journal of Psychiatric
+Research. Edwards, E., Rose, N.L.J., Gromatsky, M., Feinberg, A., Kimhy,
+D., Doucette, J., Goodman, M., McClure, M., Perez-Rodriguez, M., New,
+A., &amp; Hazlett, E.A. (2021). Alexithymia, affective lability,
+impulsivity, and early life trauma in borderline personality disorder.
+Journal of Personality Disorders. PMID: 33650890. Goldstein, K.,
+Feinberg, A., Corniquel, M., Szeszko, J., New, A., Haznedar, M., Chu,
+K., Tang, C., &amp; Hazlett, E., (2020). Increased Amygdala Activity to
+Repeated Unpleasant Stimuli Among Unmedicated Individuals with
+Borderline Personality Disorder and a History of Suicidal Behavior.
+Journal of Personality Disorders. PMID: 33779281. Feinberg, A. (2019).
+Amygdala Habituation to Unpleasant Pictures in Borderline Personality
+Disorder Patients with and without a History of Suicidal Behavior. Talk
+presented at the 59th Society of Psychophysiological Research Annual
+Meeting, Washington, DC, 2019. Feinberg, A., Vacarro, D., Corniquel, M.,
+Szeszko, J., Chu, K., Goldstein, K., &amp; Hazlett, E. (2019). Amygdala
+Habituation to Unpleasant Pictures in Borderline Personality Disorder
+Patients with and without a History of Suicidal Behavior. James J.
+Peters VA Medical Center Research Day 2019, Bronx, NY, 2019. Feinberg,
+A. &amp; Gupta, S. (2018). Reducing Flashbacks After Traumatic Films:
+The Effect of Tetris and Social Interaction on Working Memory. Spring
+Research Festival, Barnard College, 2018. Jang, Y., Lee, H., Feinberg,
+A., &amp; Son, L. (2018). Social Desirability: When Others Have
+Confidence in Me. International Meeting of the Psychonomic Society,
+Amsterdam, Netherlands, 2018. Jang, Y., Byeun, H., Cao, O., Feinberg,
+A., Fruchter, S., Plotnikov, N., Wang, L., &amp; Son, L. (2017).
+Speaking to a White or Asian group: Influences on memory and
+metacognition. Psychonomic Society 58th Annual Meeting, Vancouver,
+Canada, 2017.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
