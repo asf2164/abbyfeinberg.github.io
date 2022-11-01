@@ -2,12 +2,10 @@
 title: "Dashboard"
 output: 
   html_document:
-    toc: true
-    toc_float: true
     theme: spacelab
 ---
 
-```{r setup, include=FALSE}
+```{r}
 library(tidyverse) 
 library(dplyr)
 

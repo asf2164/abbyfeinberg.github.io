@@ -2,17 +2,15 @@
 title: "Resume"
 output: 
 html_document:
-    toc: true
-    toc_float: true
     theme: spacelab
 ---
 
-# Skills 
+## Skills 
 
 Computer Skills: SAS; R; MATLAB; SPSS; Statistica; Microsoft Office Suite; Qualtrics;
 Language Skills: Fluent in Russian; Intermediate Spanish
 
-# Education
+## Education
 
 Mailman School of Public Health, Columbia University
 Master of Public Health (MPH), Epidemiology
@@ -32,7 +30,7 @@ KOREA UNIVERSITY, Seoul, South Korea
 International Summer Campus
 June 2017 - July 2017 
 
-# Work Experience 
+## Work Experience 
 
 COLUMBIA UNIVERSITY, New York, NY				
 Project Coordinator
@@ -114,7 +112,7 @@ Vice President of Operations
 January 2022 – Present 
 
 
-#Papers and Publications
+## Papers and Publications
 Sher L., Kilmade M.E., Feinberg A., Govindarajulu U., Byne W., Kahn R., Hazlett E.A. (2021). Clinical features and psychiatric comorbidities in military veterans with schizophrenia with or without suicidality. Journal of Psychiatric Research.
 Edwards, E., Rose, N.L.J., Gromatsky, M., Feinberg, A., Kimhy, D., Doucette, J., Goodman, M., McClure, M., Perez-Rodriguez, M., New, A., & Hazlett, E.A. (2021). Alexithymia, affective lability, impulsivity, and early life trauma in borderline personality disorder. Journal of Personality Disorders. PMID: 33650890.
 Goldstein, K., Feinberg, A., Corniquel, M., Szeszko, J., New, A., Haznedar, M., Chu, K., Tang, C., & Hazlett, E., (2020). Increased Amygdala Activity to Repeated Unpleasant Stimuli Among Unmedicated Individuals with Borderline Personality Disorder and a History of Suicidal Behavior. Journal of Personality Disorders. PMID: 33779281.
