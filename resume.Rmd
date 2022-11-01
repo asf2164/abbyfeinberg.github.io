@@ -2,123 +2,170 @@
 title: "Resume"
 output: 
 html_document:
-    theme: spacelab
+    theme: cerulean
 ---
 
-## Skills 
+## Skills
 
-Computer Skills: SAS; R; MATLAB; SPSS; Statistica; Microsoft Office Suite; Qualtrics;
-Language Skills: Fluent in Russian; Intermediate Spanish
+Computer Skills: SAS; R; MATLAB; SPSS; Statistica;
+
+Microsoft Office Suite; Qualtrics; Language Skills: Fluent in Russian;
+Intermediate Spanish
 
 ## Education
 
-Mailman School of Public Health, Columbia University
-Master of Public Health (MPH), Epidemiology
-Certificate: Advanced Epidemiology
-Graduation: May 2023
-Relevant coursework: Data Science, Clinical Epidemiology, Applied Regression 
+Mailman School of Public Health, Columbia University Master of Public
+Health (MPH), Epidemiology Certificate: Advanced Epidemiology
+Graduation: May 2023 Relevant coursework: Data Science, Clinical
+Epidemiology, Applied Regression
 
-Barnard College, Columbia University                
-Major: Psychology Major GPA: 3.6 
-Minor: Biology 
-Cumulative GPA: 3.3
-Senior Thesis: Reducing Flashbacks After Traumatic Films: The Effect of Tetris and Social Interaction on Working Memory.
-Graduation: May 2018 
+Barnard College, Columbia University\
+Major: Psychology Major GPA: 3.6 Minor: Biology Cumulative GPA: 3.3
+Senior Thesis: Reducing Flashbacks After Traumatic Films: The Effect of
+Tetris and Social Interaction on Working Memory. Graduation: May 2018
 
-Study Abroad: 
-KOREA UNIVERSITY, Seoul, South Korea                                                       		
-International Summer Campus
-June 2017 - July 2017 
+Study Abroad: KOREA UNIVERSITY, Seoul, South Korea\
+International Summer Campus June 2017 - July 2017
 
-## Work Experience 
+## Work Experience
 
-COLUMBIA UNIVERSITY, New York, NY				
-Project Coordinator
-March 2022 - Present 
-•	Created the recruitment flow and data management system for a focus group research study on sleep and cardiovascular health among the Hispanic and Latinx community. 
-•	Coordinated the final timepoint of a longitudinal study on breast density and created the materials for that timepoint.  
+COLUMBIA UNIVERSITY, New York, NY\
+Project Coordinator March 2022 - Present • Created the recruitment flow
+and data management system for a focus group research study on sleep and
+cardiovascular health among the Hispanic and Latinx community. •
+Coordinated the final timepoint of a longitudinal study on breast
+density and created the materials for that timepoint.
 
-DEPARTMENT OF MENTAL HEALTH AND HYGIENE, New York, NY 
-HRTP Intern
-June 2022 - August 2022
-•	Conducted preliminary data analysis on data from a mobile treatment program for homeless people living in NYC with severe mental illness (SMI) using SAS and completed a literature review related to social support programs and SMI
+DEPARTMENT OF MENTAL HEALTH AND HYGIENE, New York, NY HRTP Intern June
+2022 - August 2022 • Conducted preliminary data analysis on data from a
+mobile treatment program for homeless people living in NYC with severe
+mental illness (SMI) using SAS and completed a literature review related
+to social support programs and SMI
 
-ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI, New York, NY               	  
-Clinical Research Coordinator, PI: Dr. Erin Hazlett
-June 2020 - March 2022
-●	Coordinated a longitudinal research study on neurobiological differences in schizophrenia and schizotypal personality disorder.
-●	Altered elements of the protocol to be administered remotely during the COVID-19 pandemic and submitted these protocol changes to the ISMMS IRB. 
-●	Managed data base by organizing and overseeing data collection through REDCap and completing data analysis using Statistica. 
+ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI, New York, NY\
+Clinical Research Coordinator, PI: Dr. Erin Hazlett June 2020 - March
+2022 ● Coordinated a longitudinal research study on neurobiological
+differences in schizophrenia and schizotypal personality disorder. ●
+Altered elements of the protocol to be administered remotely during the
+COVID-19 pandemic and submitted these protocol changes to the ISMMS IRB.
+● Managed data base by organizing and overseeing data collection through
+REDCap and completing data analysis using Statistica.
 
-JAMES J PETERS VA MEDICAL CENTER, Bronx, NY                                             	
-Clinical Research Coordinator, PI: Dr. Erin Hazlett
-November 2018 - August 2021
-●	Coordinated a longitudinal research study on neurobiological mechanisms of suicidal behavior and emotional regulation in Veterans at low and high risk for suicide
-●	Oversaw data collection and management through Microsoft Excel and REDCap.
-●	Managed participants’ involvement with the study through scheduling appointments, conducting interviews regarding their mental health and medical history, assisted with their MRI scan, and conducted psychophysiological (affective startle paradigm) and neurocognitive assessments (Go-No Go, Delayed Discounting, and Stroop).
-●	Recruited participants through newspapers, flyers, and by networking at numerous VA hospitals throughout New York; conducted phone screens to determine eligibility among potential participants.
-●	Organized and submitted study applications to the JJPVAMC IRB as well as the IRB of the academic affiliate, Icahn School of Medicine at Mount Sinai; transitioned parts of the study protocol to be administered remotely during the COVID-19 pandemic.
-●	Assisted in the development of two grants on mTBI and bipolar disorder and one grant on the effects of cognitive remediation on Veterans with Major Depressive Disorder at high risk for suicide.
-●	Contributed to the development of manuscripts by creating figures and editing copy to prepare for publication. 
+JAMES J PETERS VA MEDICAL CENTER, Bronx, NY\
+Clinical Research Coordinator, PI: Dr. Erin Hazlett November 2018 -
+August 2021 ● Coordinated a longitudinal research study on
+neurobiological mechanisms of suicidal behavior and emotional regulation
+in Veterans at low and high risk for suicide ● Oversaw data collection
+and management through Microsoft Excel and REDCap. ● Managed
+participants' involvement with the study through scheduling
+appointments, conducting interviews regarding their mental health and
+medical history, assisted with their MRI scan, and conducted
+psychophysiological (affective startle paradigm) and neurocognitive
+assessments (Go-No Go, Delayed Discounting, and Stroop). ● Recruited
+participants through newspapers, flyers, and by networking at numerous
+VA hospitals throughout New York; conducted phone screens to determine
+eligibility among potential participants. ● Organized and submitted
+study applications to the JJPVAMC IRB as well as the IRB of the academic
+affiliate, Icahn School of Medicine at Mount Sinai; transitioned parts
+of the study protocol to be administered remotely during the COVID-19
+pandemic. ● Assisted in the development of two grants on mTBI and
+bipolar disorder and one grant on the effects of cognitive remediation
+on Veterans with Major Depressive Disorder at high risk for suicide. ●
+Contributed to the development of manuscripts by creating figures and
+editing copy to prepare for publication.
 
-BARNARD COLLEGE, New York, NY                                                            		
-Research Assistant
-January 2017 - May 2018 
-●	Assisted on psychophysiological studies focusing on memory, metacognition, and decision-making; recruited 70 participants from Psychology classes; administered study protocols to participants; acted as a confederate for the study; created and presented on this data at the 58th Annual Meeting of the Psychonomic Society in Vancouver, Canada. 
-●	Traveled to Seoul, South Korea to collect data on a study that compared metacognition in social relationships between Korean college students at Korea University and college students at the University of Montana.
+BARNARD COLLEGE, New York, NY\
+Research Assistant January 2017 - May 2018 ● Assisted on
+psychophysiological studies focusing on memory, metacognition, and
+decision-making; recruited 70 participants from Psychology classes;
+administered study protocols to participants; acted as a confederate for
+the study; created and presented on this data at the 58th Annual Meeting
+of the Psychonomic Society in Vancouver, Canada. ● Traveled to Seoul,
+South Korea to collect data on a study that compared metacognition in
+social relationships between Korean college students at Korea University
+and college students at the University of Montana.
 
-BARNARD COLLEGE, New York, NY                                                            		
-Teacher’s Assistant
-September 2017 - May 2018 
-●	Held office hours for Programming for Behavioral Sciences class and assisted 20 students with their MATLAB projects, where they recreated psychology experiments such as variations of the Stroop task and simulated stock markets.
-●	Held office hours and organized notes for Psychology of Personality class as the only TA.
+BARNARD COLLEGE, New York, NY\
+Teacher's Assistant September 2017 - May 2018 ● Held office hours for
+Programming for Behavioral Sciences class and assisted 20 students with
+their MATLAB projects, where they recreated psychology experiments such
+as variations of the Stroop task and simulated stock markets. ● Held
+office hours and organized notes for Psychology of Personality class as
+the only TA.
 
-BARNARD COLLEGE, New York, NY                                                            		
-Research Assistant
-September 2016 - May 2018 
-●	Developed a protocol for my undergraduate thesis on working memory following exposure to traumatic films with implications for how traumatic imagery is encoded in PTSD. 
-●	Recruited 130 participants from college Psychology classes; executed protocol which involved cognitive and self-report assessments; followed participants for one week one week after administration of the study.
-●	Organized and submitted study application to the Barnard College IRB and Columbia University IRB; trained a research assistant on the study protocol.
-●	Assisted on a research study on the relationship between social media usage and disordered eating
+BARNARD COLLEGE, New York, NY\
+Research Assistant September 2016 - May 2018 ● Developed a protocol for
+my undergraduate thesis on working memory following exposure to
+traumatic films with implications for how traumatic imagery is encoded
+in PTSD. ● Recruited 130 participants from college Psychology classes;
+executed protocol which involved cognitive and self-report assessments;
+followed participants for one week one week after administration of the
+study. ● Organized and submitted study application to the Barnard
+College IRB and Columbia University IRB; trained a research assistant on
+the study protocol. ● Assisted on a research study on the relationship
+between social media usage and disordered eating
 
-QNTFY, Arlington, VA                                                                                   		
-Remote Intern
-May 2017 - August 2017
-●	Assisted in developing an annotation scheme for a series of Twitter posts for various emotions and behaviors associated with mental illnesses (e.g. depression and anxiety), with the purpose of determining common manifestations of psychopathology on Twitter.
-●	Performed literature review related to computational clinical psychology and linguistics.
+QNTFY, Arlington, VA\
+Remote Intern May 2017 - August 2017 ● Assisted in developing an
+annotation scheme for a series of Twitter posts for various emotions and
+behaviors associated with mental illnesses (e.g. depression and
+anxiety), with the purpose of determining common manifestations of
+psychopathology on Twitter. ● Performed literature review related to
+computational clinical psychology and linguistics.
 
-# Other Experience 
+# Other Experience
 
-NEW YORK STATE PSYCHIATRIC INSTITUTE, New York, NY                 	
-Volunteer
-October 2017 - May 2018
-●	Conducted phone screens with parents to determine if their child was eligible to participate in an fMRI study on adolescent OCD; Organized and analyzed the collected data using Microsoft Access.
+NEW YORK STATE PSYCHIATRIC INSTITUTE, New York, NY\
+Volunteer October 2017 - May 2018 ● Conducted phone screens with parents
+to determine if their child was eligible to participate in an fMRI study
+on adolescent OCD; Organized and analyzed the collected data using
+Microsoft Access.
 
-COLUMBIA EDUCATIONAL STUDIES PROGRAM                                   		
-Administrator, Teacher
-January 2015 - May 2018
-●	Coordinated the Splash program at Columbia University, a program that runs once a semester and allows college students to lecture on topics of their choosing to 1000+ High School students; taught psychology classes to high school students
+COLUMBIA EDUCATIONAL STUDIES PROGRAM\
+Administrator, Teacher January 2015 - May 2018 ● Coordinated the Splash
+program at Columbia University, a program that runs once a semester and
+allows college students to lecture on topics of their choosing to 1000+
+High School students; taught psychology classes to high school students
 
-MENTAL HEALTH AWARENESS INTEGRATION FORUM
-President		
-January 2022 – Present
+MENTAL HEALTH AWARENESS INTEGRATION FORUM President\
+January 2022 -- Present
 
-HEALTHCARE DATA ANALYTICS
-Vice President of Finance 			
-January 2022 – Present
+HEALTHCARE DATA ANALYTICS Vice President of Finance\
+January 2022 -- Present
 
-WOMXN 4 WOMEN 
-Vice President of Operations				
-January 2022 – Present 
-
+WOMXN 4 WOMEN Vice President of Operations\
+January 2022 -- Present
 
 ## Papers and Publications
-Sher L., Kilmade M.E., Feinberg A., Govindarajulu U., Byne W., Kahn R., Hazlett E.A. (2021). Clinical features and psychiatric comorbidities in military veterans with schizophrenia with or without suicidality. Journal of Psychiatric Research.
-Edwards, E., Rose, N.L.J., Gromatsky, M., Feinberg, A., Kimhy, D., Doucette, J., Goodman, M., McClure, M., Perez-Rodriguez, M., New, A., & Hazlett, E.A. (2021). Alexithymia, affective lability, impulsivity, and early life trauma in borderline personality disorder. Journal of Personality Disorders. PMID: 33650890.
-Goldstein, K., Feinberg, A., Corniquel, M., Szeszko, J., New, A., Haznedar, M., Chu, K., Tang, C., & Hazlett, E., (2020). Increased Amygdala Activity to Repeated Unpleasant Stimuli Among Unmedicated Individuals with Borderline Personality Disorder and a History of Suicidal Behavior. Journal of Personality Disorders. PMID: 33779281.
-Feinberg, A. (2019). Amygdala Habituation to Unpleasant Pictures in Borderline Personality Disorder Patients with and without a History of Suicidal Behavior. Talk presented at the 59th Society of Psychophysiological Research Annual Meeting, Washington, DC, 2019. 
-Feinberg, A., Vacarro, D., Corniquel, M., Szeszko, J., Chu, K., Goldstein, K., & Hazlett, E. (2019). Amygdala Habituation to Unpleasant Pictures in Borderline Personality Disorder Patients with and without a History of Suicidal Behavior. James J. Peters VA Medical Center Research Day 2019, Bronx, NY, 2019.
-Feinberg, A. & Gupta, S. (2018). Reducing Flashbacks After Traumatic Films: The Effect of Tetris and Social Interaction on Working Memory. Spring Research Festival, Barnard College, 2018.
-Jang, Y., Lee, H., Feinberg, A., & Son, L. (2018). Social Desirability: When Others Have Confidence in Me. International Meeting of the Psychonomic Society, Amsterdam, Netherlands, 2018.
-Jang, Y., Byeun, H., Cao, O., Feinberg, A., Fruchter, S., Plotnikov, N., Wang, L., & Son, L. (2017). Speaking to a White or Asian group: Influences on memory and metacognition. Psychonomic Society 58th Annual Meeting, Vancouver, Canada, 2017.
 
+Sher L., Kilmade M.E., Feinberg A., Govindarajulu U., Byne W., Kahn R.,
+Hazlett E.A. (2021). Clinical features and psychiatric comorbidities in
+military veterans with schizophrenia with or without suicidality.
+Journal of Psychiatric Research. Edwards, E., Rose, N.L.J., Gromatsky,
+M., Feinberg, A., Kimhy, D., Doucette, J., Goodman, M., McClure, M.,
+Perez-Rodriguez, M., New, A., & Hazlett, E.A. (2021). Alexithymia,
+affective lability, impulsivity, and early life trauma in borderline
+personality disorder. Journal of Personality Disorders. PMID: 33650890.
+Goldstein, K., Feinberg, A., Corniquel, M., Szeszko, J., New, A.,
+Haznedar, M., Chu, K., Tang, C., & Hazlett, E., (2020). Increased
+Amygdala Activity to Repeated Unpleasant Stimuli Among Unmedicated
+Individuals with Borderline Personality Disorder and a History of
+Suicidal Behavior. Journal of Personality Disorders. PMID: 33779281.
+Feinberg, A. (2019). Amygdala Habituation to Unpleasant Pictures in
+Borderline Personality Disorder Patients with and without a History of
+Suicidal Behavior. Talk presented at the 59th Society of
+Psychophysiological Research Annual Meeting, Washington, DC, 2019.
+Feinberg, A., Vacarro, D., Corniquel, M., Szeszko, J., Chu, K.,
+Goldstein, K., & Hazlett, E. (2019). Amygdala Habituation to Unpleasant
+Pictures in Borderline Personality Disorder Patients with and without a
+History of Suicidal Behavior. James J. Peters VA Medical Center Research
+Day 2019, Bronx, NY, 2019. Feinberg, A. & Gupta, S. (2018). Reducing
+Flashbacks After Traumatic Films: The Effect of Tetris and Social
+Interaction on Working Memory. Spring Research Festival, Barnard
+College, 2018. Jang, Y., Lee, H., Feinberg, A., & Son, L. (2018). Social
+Desirability: When Others Have Confidence in Me. International Meeting
+of the Psychonomic Society, Amsterdam, Netherlands, 2018. Jang, Y.,
+Byeun, H., Cao, O., Feinberg, A., Fruchter, S., Plotnikov, N., Wang, L.,
+& Son, L. (2017). Speaking to a White or Asian group: Influences on
+memory and metacognition. Psychonomic Society 58th Annual Meeting,
+Vancouver, Canada, 2017.

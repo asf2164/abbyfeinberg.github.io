@@ -13,4 +13,4 @@ navbar:
       href: https://github.com/asf2164
 output:
   html_document:
-    theme: spacelab
+    theme: cerulean
