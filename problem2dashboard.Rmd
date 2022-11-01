@@ -1,27 +1,82 @@
 ---
 title: "Dashboard"
 output: 
-  html_document:
-    theme: spacelab
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-```{r}
+```{r setup, include = FALSE, echo = FALSE, message = FALSE, warning = FALSE}
 library(tidyverse) 
 library(dplyr)
+library(plotly)
+library(flexdashboard)
 
 library(p8105.datasets)
 data("ny_noaa")
 
-ny_noaa =
+ny_noaa_sample = 
   ny_noaa %>% 
   janitor::clean_names() %>% 
+  sample_n(1000) %>%
   separate(date, into = c("year", "month", "day")) %>% 
   mutate(across(.col = (c("year", "month", "day", "prcp", "snow", "snwd", "tmax", "tmin")), as.numeric)) %>%
-  mutate(prcp = prcp/100, snow = snow/10, snwd = snwd/10, tmax = tmax/10, tmin = tmin/10)
-#fix how the variables were mutated
+  mutate(prcp = prcp/100, snow = snow/25.4, snwd = snwd/10, tmax = tmax/10, tmin = tmin/10) %>% 
+  mutate(
+    month = case_when(
+      month == 1 ~ "January",
+      month == 2 ~ "February",
+      month == 3 ~ "March",
+      month == 4 ~ "April",
+      month == 5 ~ "May",
+      month == 6 ~ "June",
+      month == 7 ~ "July",
+      month == 8 ~ "August",
+      month == 9 ~ "September",
+      month == 10 ~ "October",
+      month == 11 ~ "November",
+      month == 12 ~ "December"
+    )
+  ) %>% 
+  mutate(day = factor(day, levels = str_c(c("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"))))
 
 ```
 
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Snowfall by Year
 
 
 
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+ny_noaa_sample %>%
+  mutate(text_label = str_c("Snowfall (cm): ", snow, " Year: ", year)) %>% 
+  plot_ly(
+    x = ~year, y = ~snow, type = "scatter", mode = "markers",
+    color = ~month, text = ~text_label, alpha = 0.5)
+#Figure out how to name months
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Precipitation by Year
+
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+ny_noaa_sample %>% 
+  mutate(year = as.factor(year)) %>% 
+  mutate(precipyear = fct_reorder(year, prcp)) %>% 
+  mutate(text_label = str_c("Month: ", month)) %>% 
+  plot_ly(y = ~prcp, color = ~precipyear, type = "box", colors = "viridis", text = ~text_label)
+```
+
+### Maximum Temperature by Month between 1981-2010
+
+```{r echo = FALSE, message = FALSE, warning = FALSE}
+ny_noaa_sample %>% 
+  mutate(year = as.factor(year)) %>% 
+  mutate(tempmonth = fct_reorder(month, tmax)) %>% 
+  mutate(text_label = str_c("Year: ", year, " Max Temperature")) %>% 
+  plot_ly(x = ~month, y = ~tmax, color = ~year, type = "bar", colors = "viridis", text = ~text_label)
+```

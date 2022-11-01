@@ -1,0 +1,10 @@
+---
+title: "About Me"
+output: 
+  html_document:
+    theme: cerulean
+---
+
+<img src="images/me.jpg" style="width:50%">
+
+My name is Abby Feinberg and I'm a current second year MPH student in the Department of Epidemiology at Columbia University. My certificate is in Advanced Epidemiology. I'm passionate about mental health and data analytics. My hobbies include cosplay, tabletop games, and being a cat foster. 

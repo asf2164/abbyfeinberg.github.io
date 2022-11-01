@@ -1,10 +1,10 @@
 ---
-title: "Abby Feinberg's website"
+title: "Abby Feinberg's Website"
 output: 
   html_document:
     theme: cerulean
 ---
 
-# Homepage
+<img src="images/imadatascientistnow.webp" style="width:75%">
 
-asdfasdfa
+Welcome to my website!
